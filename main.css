@@ -5,15 +5,10 @@
 .card {
   border-radius: 0;
   border: none;
+  img {
+    border-radius: 0;
+  }
 }
-
-/* 全域 */
-body {
-  font-family: "Noto Sans TC", Arial, Helvetica, sans-serif;
-}
-
-/* 自訂 */
-/* navbar */
 .navbar {
   opacity: 0.96;
   h2 {
@@ -23,6 +18,21 @@ body {
     font-size: 22px;
   }
 }
+
+/* 全域 */
+body {
+  font-family: "Noto Sans TC", Arial, Helvetica, sans-serif;
+}
+
+/* 自訂 */
+.m-background {
+  background-image: url(./img/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* section1 */
 .m-section1 {
   width: 100%;
